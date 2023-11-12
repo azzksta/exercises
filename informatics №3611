@@ -1,0 +1,9 @@
+import math
+
+a = float(input())
+b = float(input())
+c = float(input())
+p = (a+b+c)/2 #   p - is half perimeter
+if a>0 and b>0 and c>0:
+    S2=p*(p-a)*(p-b)*(p-c) # finding the area of ​​a triangle
+    print(math.sqrt(S2))
