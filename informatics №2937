@@ -1,0 +1,4 @@
+a = int(input())
+a0=a-1
+a1=a+1
+print("The next number for the number ",a," is ",a1,".","\nThe previous number for the number ",a," is ",a0,".",sep ='')
