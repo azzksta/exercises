@@ -2,13 +2,13 @@ a,b,c=map(int, input().split())
 o,d,s=map(int, input().split())
 
 a_o=abs(a-o)
-a_o=a_o*60*60    '''Convert the difference in hours to seconds. 
-60 minutes in an hour, 60 seconds in a minute.'''
+a_o=a_o*60*60    #Convert the difference in hours to seconds. 
+                #60 minutes in an hour, 60 seconds in a minute.
 
 b_d=abs(b-d)
-b_d=b_d*60       '''Convert the difference in minutes to seconds. 
-60 seconds in a minute.'''
+b_d=b_d*60      #Convert the difference in minutes to seconds. 
+                   #60 seconds in a minute.
 
-c_s=abs(c-s)     '''count the difference in seconds'''
+c_s=abs(c-s)     #count the difference in seconds
 
-print(a_o+b_d+c_s)  '''add up all the differences'''
+print(a_o+b_d+c_s)  #add up all the differences
