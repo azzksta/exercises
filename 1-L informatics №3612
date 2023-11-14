@@ -1,0 +1,7 @@
+hours=int(input())
+minuts=int(input())
+seconds=int(input())
+
+sum_grad=(hours*30)+(minuts*0.5)+(seconds*0.008)
+
+print(sum_grad)
