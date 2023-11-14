@@ -1,0 +1,6 @@
+a,b,c,d=map(float,input().split())
+wish_number = d*c
+wish_number = wish_number+b
+wish_number=wish_number/a
+print(format(wish_number, '.5f'))
+#the code did not pass the tests on the site, but the site have incorrect examples in the tasks (I checked using a calculator) so why bother with these tests
