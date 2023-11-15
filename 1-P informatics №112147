@@ -1,0 +1,6 @@
+a= float(input())
+if a>=0 and a <= 8:
+    b=a*a #a**2
+    c=b*b #a**4
+    a=c*c*b #a**10
+    print(format(a,'.3f')) 
