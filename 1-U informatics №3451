@@ -1,0 +1,5 @@
+a=179**10
+a=str(a)
+a = int(a*4)
+b=pow(a, 1/10)
+print(b)
