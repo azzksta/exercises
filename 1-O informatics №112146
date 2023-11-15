@@ -1,0 +1,9 @@
+r= float(input())
+if r>0:
+    C=2*3.1415926*r
+    S=3.1415926*r**2
+    print(format(S, '.3f')) 
+    print(format(C, '.3f')) 
+else:
+    print("0")
+    print("0")
