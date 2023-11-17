@@ -1,0 +1,9 @@
+N=int(input())
+M=int(input())
+K=int(input())
+a=0
+rolls =0
+while a<M:
+    a=a+(K//N)
+    rolls=rolls+1
+print(rolls)
