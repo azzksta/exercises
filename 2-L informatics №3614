@@ -1,0 +1,5 @@
+n = float(input())
+hours=n//30
+minuts=(n%30)*2
+seconds=((n%30)%0.5)*120
+print(int(hours),int(minuts),int(seconds))
