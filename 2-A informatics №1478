@@ -1,0 +1,2 @@
+d,l=map(int,input().split())
+print((d-1)*6+l)
