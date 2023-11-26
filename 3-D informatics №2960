@@ -1,0 +1,12 @@
+numberSys=int(input())
+answer=int(input())
+
+if answer ==1:
+    if numberSys%11==0 or numberSys%111==0 or numberSys%1111==0:
+        print("YES")
+    else:
+        print("NO")
+        
+if answer !=1:
+    if numberSys%11==0 or numberSys%111==0 or numberSys%1111==0:
+        print("NO")
