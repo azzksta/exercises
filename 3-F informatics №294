@@ -1,0 +1,12 @@
+a=int(input())
+b=int(input())
+c=int(input())
+
+numbrs =[a,b,c]
+lenght= len(numbrs)
+
+for i in range(lenght-1):
+    for j in range(lenght-1-i):
+        if numbrs[j]>numbrs[j+1]:
+            numbrs[j],numbrs[j+1]=numbrs[j+1], numbrs[j]
+print(numbrs[2])
