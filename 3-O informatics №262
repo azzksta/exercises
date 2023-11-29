@@ -1,0 +1,14 @@
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+
+price=a*100+b
+buy=c*100+d
+
+if buy>price:
+    e = (buy-price)//100
+    f = (buy-price)%100
+    print(e,f)
+else:
+    print(0,0)
