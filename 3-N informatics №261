@@ -1,0 +1,23 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+
+#(ax + b) / (cx + d) = 0
+# a*x + b = c*x + d = 0
+#a*x + b = 0
+# ax = -b
+# x = -b/a
+# cx + d = 0
+# cx = -d
+# x = -d/c
+
+if a ==0 and b==0:
+    print("INF")
+
+x=(-b)/a
+
+if a*x+b==0:
+    print(int(x))
+else:
+    print("NO")
