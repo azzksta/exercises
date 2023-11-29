@@ -1,0 +1,15 @@
+a=int(input())
+b=int(input())
+
+# ax + b = 0
+# ax = -b
+# x = -b/a
+
+if a==0 and b==0:
+    print("INF")
+
+x=(-b)/a
+if a*x+b==0 and (-b)%a==0:
+    print(int(x))
+else:
+    print("NO")
