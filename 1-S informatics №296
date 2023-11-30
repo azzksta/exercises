@@ -1,0 +1,10 @@
+a = int(input())
+b = int(input())
+c = int(input())
+res=0
+lst=[a,b,c]
+res=lst.count(a)+lst.count(b)+lst.count(c)-3
+if res>3:
+    res=3
+
+print(res)
