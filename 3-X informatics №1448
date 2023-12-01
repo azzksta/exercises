@@ -1,0 +1,10 @@
+n = int(input())
+
+if 0<=n<=1000:
+    number=n%10
+    if number==1 and n%100!=11:
+        print(n,"bochka")
+    elif n%100!=12 and number==2 or n%100!=13 and number==3 or n%100!=14 and number==4:
+        print(n,"bochki")
+    else:
+        print(n,"bochek")
