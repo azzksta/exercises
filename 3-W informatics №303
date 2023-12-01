@@ -1,0 +1,10 @@
+n = int(input())
+
+if n<100:
+    number=n%10
+    if n!=11 and number==1:
+        print(n,"korova")
+    elif n!=12 and number==2 or n!=13 and number==3 or n!=14 and number==4:
+        print(n,"korovy")
+    else:
+        print(n,"korov")
